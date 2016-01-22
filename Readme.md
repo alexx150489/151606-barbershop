@@ -1,6 +1,7 @@
 # Учебный проект «Барбершоп»
 
 * Студент: [Александр Никольский](https://htmlacademy.ru/profile/id151606).
+* Наставник: [Евгений Старшинов](https://htmlacademy.ru/profile/id100874).
 
 ---
 
@@ -17,13 +18,13 @@ _`.editorconfig`, `.gitignore`, `Readme.md`._
 
 #### 2. Создайте форк
 
-[Откройте репозиторий](https://github.com/htmlacademy-htmlcss/151606-barbershop) и нажмите кнопку «Fork» в правом верхнем углу. Репозиторий из Академии скопируется в ваш аккаунт.
+[Откройте репозиторий](https://github.com/htmlacademy-htmlcss/151606-nerds) и нажмите кнопку «Fork» в правом верхнем углу. Репозиторий из Академии скопируется в ваш аккаунт.
 
-<img width="769" alt="" src="https://cloud.githubusercontent.com/assets/10909/12391800/6077bf90-bdfb-11e5-88e1-7589f1d4bcc7.jpg">
+<img width="769" alt="" src="https://cloud.githubusercontent.com/assets/10909/12391938/5b3183f8-bdfc-11e5-888b-fa74dcf4d829.jpg">
 
 Получится вот так:
 
-<img width="769" alt="" src="https://cloud.githubusercontent.com/assets/10909/12391804/6d683b76-bdfb-11e5-87fa-35a0aa855e1c.jpg">
+<img width="769" alt="" src="https://cloud.githubusercontent.com/assets/10909/12391937/5b2fc266-bdfc-11e5-811d-dc5e1057ad87.jpg">
 
 #### 3. Клонируйте репозиторий на свой компьютер
 
