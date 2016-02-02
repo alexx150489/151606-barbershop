@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link href="css/style.css" rel="stylesheet">
+      <link href="css/normalize.css" rel="stylesheet">
+      <link href="css/style-shop.css" rel="stylesheet">
     <meta charset="utf-8">
     <title>Барбершоп «Бородинский»</title>
   </head>
@@ -10,6 +11,7 @@
     <header class="main-header">
       <div class="container clearfix">
         <div class="main-logo">
+            <img src="img/main-logo2.png" width="111" height="24" alt="barbershop">
         </div>    
         <nav class="main-navigation">
           <ul>
@@ -36,11 +38,9 @@
       </div>
     </header>
     
-    <div class="content">
-        <div class="catalog">
-            <h1 class="catlog-title">
-            СРЕДСТВА ДЛЯ УХОДА
-            </h1>
+    <main class="content">
+        <div class="container">
+            <h1 class="catlog-title">СРЕДСТВА ДЛЯ УХОДА</h1>
             <div class="catalog-breadcrumbs">
                 <ul>
                     <li>ГЛАВНАЯ</li>
@@ -48,104 +48,128 @@
                     <li class="breadcrumbs-current">СРЕДСТВА ДЛЯ УХОДА</li>
                 </ul>    
             </div>
-            <div class="catalog-items">
-                <div class="form">
-                    
-                    <form>
-                        <p>ПРОИЗВОДИТЕЛИ:</p>
-                        <input type="checkbox" checked>BAXTER OF CALIFORNIA<br>
-                        <input type="checkbox">ME NATTY<br>
-                        <input type="checkbox" checked>SUAVECITO<br>
-                        <input type="checkbox">MALIN+GOETZ<br>
-                        <input type="checkbox">MURRAY'S<br>    <!-- fieldset > legend ? -->
-                        <input type="checkbox" checked>AMERICAN CREW<br>
-                        <p>ГРУППЫ ТОВАРОВ:</p>
-                        <input type="radio">БРИТВЕННЫЕ ПРИНАДЛЕЖНОСТИ
-                        <input type="radio">СРЕДСТВА ДЛЯ УХОДА
-                        <input type="radio">АКСЕССУАРЫ
-                    </form>     
-                    <button class="btn-show">ПОКАЗАТЬ</button>
-                </div>    
-                <div class="catalog-items-wrapper">
-                    <article class="catalog-item">
-                        <a href="#">
-                            <img src="img/catalog-item1.jpg" width="220" height="165" alt="catalog-item1">
-                            <span class="category"></span>
-                            <span class="title"></span>
-                        </a>
-                        <div>
-                            <span class="price">2 900 РУБ.</span>
-                            <a class="buy" href="#">КУПИТЬ</a>
+            <div class="catalog-items clearfix">
+                <div class="filters">
+                        <form>
+                            <p>ПРОИЗВОДИТЕЛИ:</p>
+                            <input type="checkbox" checked>BAXTER OF CALIFORNIA<br>
+                            <input type="checkbox">ME NATTY<br>
+                            <input type="checkbox" checked>SUAVECITO<br>
+                            <input type="checkbox">MALIN+GOETZ<br>
+                            <input type="checkbox">MURRAY'S<br>    <!-- fieldset > legend ? -->
+                            <input type="checkbox" checked>AMERICAN CREW<br>
+                            <p>ГРУППЫ ТОВАРОВ:</p>
+                            <input type="radio">БРИТВЕННЫЕ ПРИНАДЛЕЖНОСТИ<br>
+                            <input type="radio">СРЕДСТВА ДЛЯ УХОДА<br>
+                            <input type="radio">АКСЕССУАРЫ<br>
+                            <button class="btn-show" type="submit">ПОКАЗАТЬ</button>
+                        </form>     
+                 </div>    
+                 <div class="catalog-wrapper clearfix">
+                     <div class="group-one clearfix">
+                        <article class="catalog-item">
+                                <a href="#">
+                                    <img src="img/catalog-item1.jpg" width="220" height="165" alt="catalog-item1">
+                                    <span class="category"></span>
+                                    <span class="title"></span>
+                                </a>
+                                <div class="price-block">
+                                    <span class="price">2 900 РУБ.</span>
+                                    <a class="buy-btn" href="#">КУПИТЬ</a>
+                                </div>    
+                         </article>
+                         <article class="catalog-item">
+                            <a href="#">
+                                <img src="img/catalog-item2.jpg" width="220" height="165" alt="catalog-item1">
+                                <span class="category"></span>
+                                <span class="title"></span>
+                            </a>
+                            <div class="price-block">
+                                <span class="price">2 900 РУБ.</span>
+                                <a class="buy-btn" href="#">КУПИТЬ</a>
+                            </div> 
+                        </article>
+                        <article class="catalog-item">
+                            <a href="#">
+                                <img src="img/catalog-item3.jpg" width="220" height="165" alt="catalog-item1">
+                                <span class="category"></span>
+                                <span class="title"></span>
+                            </a>
+                            <div class="price-block">
+                                <span class="price">2 900 РУБ.</span>
+                                <a class="buy-btn" href="#">КУПИТЬ</a>
+                            </div> 
+                        </article>
+                    </div>
+                    <div class="group-two clearfix">
+                        <article class="catalog-item">
+                            <a href="#">
+                                <img src="img/catalog-item4.jpg" width="220" height="165" alt="catalog-item1">
+                                <span class="category"></span>
+                                <span class="title"></span>
+                            </a>
+                            <div class="price-block">
+                                <span class="price">2 900 РУБ.</span>
+                                <a class="buy-btn" href="#">КУПИТЬ</a>
+                            </div> 
+                        </article>
+                        <article class="catalog-item">
+                            <a href="#">
+                                <img src="img/catalog-item5.jpg" width="220" height="165" alt="catalog-item1">
+                                <span class="category"></span>
+                                <span class="title"></span>
+                            </a>
+                            <div class="price-block">
+                                <span class="price">2 900 РУБ.</span>
+                                <a class="buy-btn" href="#">КУПИТЬ</a>
+                            </div> 
+                        </article>
+                        <article class="catalog-item">
+                            <a href="#">
+                                <img src="img/catalog-item6.jpg" width="220" height="165" alt="catalog-item1">
+                                <span class="category"></span>
+                                <span class="title"></span>
+                            </a>
+                            <div class="price-block">
+                                <span class="price">2 900 РУБ.</span>
+                                <a class="buy-btn" href="#">КУПИТЬ</a>
+                            </div> 
+                        </article>
+                     </div>    
+                     <div class="pages">
+                             <ul>
+                                <li>1</li>
+                                <li class="current-page">2</li>
+                                <li>3</li>
+                                <li>4</li>
+                            </ul>    
                         </div>    
-                    </article>
-                    <article class="catalog-item">
-                        <a href="#">
-                            <img src="img/catalog-item2.jpg" width="220" height="165" alt="catalog-item1">
-                            <span class="category"></span>
-                            <span class="title"></span>
-                        </a>
-                        <div>
-                            <span class="price">2 900 РУБ.</span>
-                            <a class="buy" href="#">КУПИТЬ</a>
-                        </div> 
-                    </article>
-                    <article class="catalog-item">
-                        <a href="#">
-                            <img src="img/catalog-item3.jpg" width="220" height="165" alt="catalog-item1">
-                            <span class="category"></span>
-                            <span class="title"></span>
-                        </a>
-                        <div>
-                            <span class="price">2 900 РУБ.</span>
-                            <a class="buy" href="#">КУПИТЬ</a>
-                        </div> 
-                    </article>
-                    <article class="catalog-item">
-                        <a href="#">
-                            <img src="img/catalog-item4.jpg" width="220" height="165" alt="catalog-item1">
-                            <span class="category"></span>
-                            <span class="title"></span>
-                        </a>
-                        <div>
-                            <span class="price">2 900 РУБ.</span>
-                            <a class="buy" href="#">КУПИТЬ</a>
-                        </div> 
-                    </article>
-                    <article class="catalog-item">
-                        <a href="#">
-                            <img src="img/catalog-item5.jpg" width="220" height="165" alt="catalog-item1">
-                            <span class="category"></span>
-                            <span class="title"></span>
-                        </a>
-                        <div>
-                            <span class="price">2 900 РУБ.</span>
-                            <a class="buy" href="#">КУПИТЬ</a>
-                        </div> 
-                    </article>
-                    <article class="catalog-item">
-                        <a href="#">
-                            <img src="img/catalog-item6.jpg" width="220" height="165" alt="catalog-item1">
-                            <span class="category"></span>
-                            <span class="title"></span>
-                        </a>
-                        <div>
-                            <span class="price">2 900 РУБ.</span>
-                            <a class="buy" href="#">КУПИТЬ</a>
-                        </div> 
-                    </article>
-                </div>   
-                <div class="pages">
-                    <a href="#">1</a>
-                    <a href="#" class="active-page">2</a>
-                    <a href="#">3</a>
-                    <a href="#">4</a>
-                </div>    
-                  
+                  </div>   
+                
             </div>    
-          
         </div>    
+     </main>
     
-    </div> 
+     <footer class="main-footer">
+         <div class="container clearfix">
+                <section class="footer-contacts">
+                  Барбершоп «Бородинский»<br>
+                  Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
+                  <a href="#">Как нас найти?</a><br>
+                  Телефон: +7 (812) 666-02-66
+                </section>
+                <section class="footer-social">
+                  <p>Давайте дружить!</p>
+                  <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
+                  <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
+                  <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
+                </section>
+                <section class="footer-copyright">
+                  <p>Разработано:</p>
+                  <a class="btn" href="https://htmlacademy.ru">HTML Academy</a>
+                </section>
+        </div>
+    </footer> 
   
   </body>
 </html>    
